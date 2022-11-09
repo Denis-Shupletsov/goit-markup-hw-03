@@ -1,0 +1,215 @@
+:root {
+    --main-text-color: #FFFFFF;
+    --header-section-text-color: #212121;
+    --section-subtitle-color: #757575;
+    --focus-color: #2196F3;
+    --button-color: #F5F4FA;
+    --hero-filter-color: #F5F5F5;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--header-section-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Logo */
+.logo {
+    text-decoration: none;
+    color: var(--header-section-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo:hover .logo:focus {
+    color: var(--focus-color);
+}
+
+/* site-nav */
+.site-nav .link {
+    text-decoration: none;
+    color: var(--header-section-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--focus-color);
+}
+
+/* info-nav */
+.info-nav .link {
+    text-decoration: none;
+    color: var(--section-subtitle-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.info-nav .link:hover,
+.info-nav .link:focus {
+    color: var(--focus-color);
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--main-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* button */
+.button {
+    cursor: pointer;
+}
+
+.button-portfolio {
+    cursor: pointer;
+}
+
+.button {
+    background-color: var(--focus-color);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+.hero .button:hover,
+.hero .button:focus {
+    color: var(--header-section-text-color);
+}
+
+.button-portfolio {
+    background-color: var(--button-color);
+    color: var(--header-section-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    font-family: inherit;
+}
+
+.hero-filter .button-portfolio:focus,
+.hero-filter .button-portfolio:hover {
+    background-color: var(--focus-color);
+    color: var(--main-text-color);
+}
+
+/* section */
+
+.section-title {
+    color: var(--header-section-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.section-text {
+    color: var(--section-subtitle-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.section-team {
+    background-color: #F5F4FA;
+}
+
+.section-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.section-profession {
+    color: var(--section-subtitle-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* figure */
+.figure-link {
+    text-decoration: none;
+}
+.figure-title {
+    color: var(--header-section-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.figure-text {
+    color: var(--section-subtitle-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/* footer */
+.page-footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.footer-nav .link:hover,
+.footer-nav .link:focus {
+    color: var(--focus-color);
+}
+
+.footer-nav .link {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--main-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer-nav .info-link {
+    font-style: normal;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer-nav .info-link:hover,
+.footer-nav .info-link:focus {
+    color: var(--focus-color);
+}
