@@ -89,10 +89,6 @@ body {
     margin-left: 315px;
 }
 
-.info-nav .item {
-    /* margin-right: 50px; */
-}
-
 .info-nav .item + .item {
     margin-left: 50px;
 }
@@ -192,6 +188,10 @@ body {
     outline: 2px solid red;
 }
 
+.section> .quality {
+    display: flex;
+}
+
 .section-title {
     padding-top: 94px;
     padding-bottom: 10px;
@@ -210,9 +210,6 @@ body {
 }
 
 .section-subtitle {
-    height: 42px;
-    width: 366px;
-    padding-left: 417px;
     padding-bottom: 50px;
     padding-top: 118px;
     
@@ -221,12 +218,24 @@ body {
     line-height: 1.17;
     text-align: center;
 }
+/* page */
+.page {
+    display: flex;
+}
+.page .works {
+    margin-right: 30px;
+}
+
+/* section-team */
+.section-team {
+    padding-top: 188px;
+    outline: 2px solid red;
+    background-color: #F5F4FA;
+}
 
 .section-subtitle-team {
-    height: 42px;
-    width: 264px;
-    padding-left: 468px;
     padding-bottom: 50px;
+    padding-top: 188px;
     
     font-weight: 700;
     font-size: 36px;
@@ -234,26 +243,33 @@ body {
     text-align: center;
 }
 
-.works {
-
+.player {
+    display: flex;
 }
-.section-team {
-    padding-top: 188px;
+
+.card {
+    padding-right: 30px;
     outline: 2px solid red;
-    background-color: #F5F4FA;
 }
 
 .section-name {
+    padding-top: 30px;
+    outline: 2px solid red;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    text-align: center;
 }
 
 .section-profession {
+    padding-top: 10px;
+
     color: var(--section-subtitle-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
+    text-align: center;
 }
 
 /* figure */
@@ -276,15 +292,16 @@ body {
 }
 
 /* footer */
-.page-footer {
-    height: 252px;
+.page-footer { 
     outline: 2px solid red;
     background-color: #2F303A;
+}
+.footer-logo {
+    display: inline-block;
 }
 
 .footer-logo {
     padding-top: 60px;
-    /* padding-left: 115px; */
     padding-bottom: 20px;
 
     font-family: 'Raleway', sans-serif;
