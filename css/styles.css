@@ -28,10 +28,19 @@ body {
 
 /* page-header */
 .page-header {
+    /* height: 80px; */
     outline: 2px solid red;
+}
+/* main-nav */
+.main-nav {
+    display: flex;
 }
 /* Logo */
 .logo {
+    display: inline-block;
+    padding-top: 24px;
+    margin-bottom: 25px;
+
     text-decoration: none;
     color: var(--header-section-text-color);
     font-family: Raleway, sans-serif;
@@ -45,7 +54,22 @@ body {
 }
 
 /* site-nav */
+.site-nav {
+    display: flex;
+}
+
+.site-nav .item {
+    margin-left: 93px;
+}
+
+.site-nav .item + .item {
+    margin-left: 50px;
+}
 .site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     text-decoration: none;
     color: var(--header-section-text-color);
     font-weight: 500;
@@ -60,7 +84,23 @@ body {
 }
 
 /* info-nav */
+.info-nav {
+    display: flex;
+    margin-left: 315px;
+}
+
+.info-nav .item {
+    /* margin-right: 50px; */
+}
+
+.info-nav .item + .item {
+    margin-left: 50px;
+}
 .info-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     text-decoration: none;
     color: var(--section-subtitle-color);
     font-weight: 500;
@@ -153,8 +193,8 @@ body {
 }
 
 .section-title {
-    margin-top: 94px;
-    margin-bottom: 10px;
+    padding-top: 94px;
+    padding-bottom: 10px;
     
     color: var(--header-section-text-color);
     font-weight: 700;
@@ -174,7 +214,7 @@ body {
     width: 366px;
     padding-left: 417px;
     padding-bottom: 50px;
-    margin-top: 118px;
+    padding-top: 118px;
     
     font-weight: 700;
     font-size: 36px;
@@ -198,6 +238,7 @@ body {
 
 }
 .section-team {
+    padding-top: 188px;
     outline: 2px solid red;
     background-color: #F5F4FA;
 }
@@ -242,7 +283,9 @@ body {
 }
 
 .footer-logo {
-    padding-left: 215px;
+    padding-top: 60px;
+    /* padding-left: 115px; */
+    padding-bottom: 20px;
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -258,6 +301,7 @@ body {
 }
 
 .footer-nav .link {
+
     text-decoration: none;
     font-style: normal;
     color: var(--main-text-color);
