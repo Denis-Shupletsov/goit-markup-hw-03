@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid red;
@@ -296,6 +296,12 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+.products {
+    padding-right: 0px;
+    /* margin-right: 30px; */
+    margin-bottom: 30px;
+border: 1px solid black;
+}
 
 .figure .products {
     flex-basis: calc(100% /3);
@@ -303,13 +309,14 @@ body {
 
 .figure-link {
     text-decoration: none;  
+    /* border: 1px solid black; */
 
 }
 .figure-title {
     width: 322px;
     margin-top: 20px;
     padding-left: 24px;
-    padding-right: 24px;
+    margin-left: 0px;
     /* outline: 2px solid goldenrod; */
 
     color: var(--header-section-text-color);
@@ -324,7 +331,7 @@ body {
     margin-top: 4px;
     padding-left: 24px;
     margin-bottom: 50px;
-    padding-right: 24px;
+    margin-left: 0px;
     /* outline: 2px solid rebeccapurple; */
 
     color: var(--section-subtitle-color);
