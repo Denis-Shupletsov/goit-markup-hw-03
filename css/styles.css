@@ -298,15 +298,19 @@ body {
 }
 
 .figure .products {
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% /3);
 }
 
 .figure-link {
-    text-decoration: none;    
+    text-decoration: none;  
+
 }
 .figure-title {
+    width: 322px;
     margin-top: 20px;
-    margin-bottom: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    /* outline: 2px solid goldenrod; */
 
     color: var(--header-section-text-color);
     font-weight: 700;
@@ -316,8 +320,12 @@ body {
 }
 
 .figure-text {
-    padding-top: 4px;
-    padding-bottom: 50px;
+    width: 322px;
+    margin-top: 4px;
+    padding-left: 24px;
+    margin-bottom: 50px;
+    padding-right: 24px;
+    /* outline: 2px solid rebeccapurple; */
 
     color: var(--section-subtitle-color);
     font-weight: 400;
