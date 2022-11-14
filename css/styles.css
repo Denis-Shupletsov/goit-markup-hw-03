@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -113,14 +113,14 @@ body {
 }
 
 .hero {
-    width: 1200px;
+    /* width: 1200px; */
     height: 600px;
     background-color: #2F303A;
+    
     text-align: center;
 }
 
 .hero-title {
-    height: 120px;
     width: 696px;
     padding-top: 200px;
     padding-left: 252px;
@@ -263,10 +263,6 @@ body {
     display: flex;
 }
 
-.player .card + .card {
-    margin-right: 30px;
-    justify-content: center;
-}
 
 .card {
     margin-right: 30px;
@@ -299,15 +295,18 @@ body {
 .figure {
     display: flex;
     flex-wrap: wrap;
+    flex-basis: calc(100% /3);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.figure .products {
+    margin-right: 30px;
 }
 .products {
+    box-sizing: border-box;
     margin-bottom: 30px;
-    /* outline: 1px solid rebeccapurple; */
-    border-collapse: collapse;
-}
-
-.figure .products {
-    flex-basis: calc(100% /3);
+    border: 1px solid #EEEEEE;
+    margin-right: 30px;
 }
 
 .figure-link {
