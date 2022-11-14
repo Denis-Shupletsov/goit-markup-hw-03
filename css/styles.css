@@ -113,10 +113,9 @@ body {
 }
 
 .hero {
-    /* width: 1200px; */
+    width: 1200px;
     height: 600px;
     background-color: #2F303A;
-    
     text-align: center;
 }
 
@@ -208,6 +207,7 @@ body {
 .quality .section-title + .section-title {
     margin-right: 30px;
 }
+
 .section-title {
     color: var(--header-section-text-color);
     font-weight: 700;
