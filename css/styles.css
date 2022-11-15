@@ -163,14 +163,14 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     opacity: 0.9;
 }
 
+.hero-filter {
+    padding: 94px 0px;
+}
+
 .filter {
     display: flex;
     justify-content: center;
     gap: 8px;
-}
-
-.filter .filter-button {
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -303,7 +303,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     padding: 20px 24px;
     border:  1px solid #EEEEEE;
     border-top: none;
-    margin-bottom: 94px;
 }
 
 .figure-link {
@@ -311,6 +310,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     text-decoration: none;  
 }
 .figure-title {
+    margin-bottom: 4px;
     color: var(--header-section-text-color);
     font-weight: 700;
     font-size: 18px;
