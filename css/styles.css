@@ -129,9 +129,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 .hero-title {
     width: 696px;
     margin: 0px auto 30px;
-    /* padding-top: 200px;
-    padding-left: 252px;
-    padding-bottom: 30px; */
 
     color: var(--main-text-color);
     font-weight: 900;
@@ -154,8 +151,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     border: 0;
     border-radius: 4px;
     padding: 10px 30px;
-    /* min-width: 216px;
-    margin-top: 30px; */
 
     background-color: var(--focus-color);
     color: #FFFFFF;
@@ -230,8 +225,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 }
 
 .section-text {
-    
-
     color: var(--section-subtitle-color);
     font-size: 14px;
     line-height: 1.71;
@@ -266,7 +259,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 
 .section-subtitle-team {
     margin-bottom: 50px;
-    
     
     font-weight: 700;
     font-size: 36px;
@@ -317,7 +309,13 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 
 .products {
     box-sizing: border-box;
-    /* border: 1px solid #EEEEEE; */
+}
+
+.elements-products {
+    padding: 20px 24px;
+    border:  1px solid #EEEEEE;
+    border-top: none;
+    margin-bottom: 94px;
 }
 
 .figure-link {
@@ -325,10 +323,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     text-decoration: none;  
 }
 .figure-title {
-    margin-top: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
-    
     color: var(--header-section-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -337,11 +331,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 }
 
 .figure-text {
-    margin-top: 4px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 20px;
-
     color: var(--section-subtitle-color);
     font-weight: 400;
     font-size: 16px;
@@ -353,7 +342,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     background-color: #2F303A;
     padding: 60px 0px;
 }
-
 
 .footer-logo {
     display: inline-block;
