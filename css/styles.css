@@ -35,8 +35,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 
 /* page-header */
 .page-header {
-    display: flex;
-    align-items: center;
     border-bottom: 1px solid #ECECEC;
 }
 /* page-main-nav */
@@ -201,6 +199,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
 /* section */
 .quality-teams {
     visibility: hidden;
+    position: absolute;
 }
 
 .section {
@@ -208,6 +207,9 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     padding-bottom: 94px;
 }
 
+.produce {
+    padding-bottom: 0px;
+}
 .quality {
     display: flex;
     gap: 30px;
@@ -246,7 +248,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     gap: 30px;
 }
 
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
