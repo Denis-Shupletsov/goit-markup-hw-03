@@ -33,13 +33,17 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     padding: 0;
 }
 
-
 /* page-header */
 .page-header {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ECECEC;
 }
+/* page-main-nav */
+.page-main-nav {
+    display: flex;
+}
+
 /* main-nav */
 .main-nav {
     display: flex;
@@ -258,7 +262,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li {
     display: flex;
     gap: 30px;
 }
-
 
 .card {
     background-color: var(--main-text-color);
